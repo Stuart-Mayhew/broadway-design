@@ -1,16 +1,75 @@
 body {
   text-align: center;
+  font-family: helvetica;
 }
-
-.header {
+/*backgrounds for the header and title of the footer*/
+.building {
   background: url(../img/building.png) no-repeat center center;
   background-size: cover;
 }
 
+.header {
+  height: 250px;
+}
+/*default font-weight for titles is bold*/
+h1, h2, h3 {
+  font-weight: bold;
+}
+h1 {
+  color: white;
+  font-size: 70px;
+}
+/*styling for links in header and base of page*/
 ul {
   list-style: none;
+  padding-left: 0;
 }
 
 li {
   display: inline-block;
+}
+
+a {
+  color: white;
+  padding: 1px 5px;
+  font-size: 18px;
+}
+
+a:hover {
+  color: white;
+  background-color: #696969;
+  text-decoration: none;
+}
+/*css for "main" class section*/
+h2 {
+  font-size: 32px;
+}
+/*aligning the titles in the 3 columns due to difference in img sizes*/
+.identify img {
+  padding: 15.5px 0;
+}
+.execute img {
+  padding: 7px 0;
+}
+
+.footer > h3 {
+  color: white;
+  padding: 5px 0;
+}
+
+.copy {
+  text-align: left;
+  background-color: #152B39;
+  color: white;
+}
+
+.copy a, .copy p {
+  font-size: 11px;
+  font-weight: normal;
+  display: inline-block;
+  margin: 0 0 1px 5px;
+}
+.copy ul {
+  display: inline-block;
+  margin: 0 0 1px;
 }
